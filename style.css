@@ -1,0 +1,152 @@
+/* Remove default spacing from the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the entire page */
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+/* Main profile card */
+.profile-card {
+    width: 100%;
+    max-width: 700px;
+
+    background-color: white;
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Profile image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    margin-bottom: 15px;
+}
+
+/* Main name */
+.profile-header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+/* Developer role */
+.role {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Every content section */
+.profile-section {
+    margin-bottom: 30px;
+}
+
+/* Section headings */
+.profile-section h2 {
+    margin-bottom: 12px;
+
+    font-size: 22px;
+
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+
+/* Paragraph styling */
+.profile-section p {
+    line-height: 1.6;
+
+    color: #444;
+
+    margin-bottom: 10px;
+}
+
+/* Skills list */
+.skills-list {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    list-style: none;
+}
+
+/* Individual skill */
+.skills-list li {
+    background-color: #eaeaea;
+
+    padding: 8px 15px;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+}
+
+/* Contact links container */
+.contact-links {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+/* Individual links */
+.contact-links a {
+    text-decoration: none;
+
+    background-color: #222;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.contact-links a:hover {
+    background-color: #555;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .profile-card {
+        padding: 25px;
+    }
+
+    .profile-header h1 {
+        font-size: 26px;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+}
