@@ -40,8 +40,8 @@ day-01-developer-profile/
 * Links
 * Lists
 * CSS selectors
-* Flexbox
-* Responsive design
+* Flexbox (  1-D )
+* Responsive design( it automatically changes the state from one display to another like for mobile it is different , tablet , pc and tv)
 
 ## Author
 
